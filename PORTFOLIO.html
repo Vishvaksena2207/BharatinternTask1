@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+    <style>
+        body {
+            font-family:Fixedsys,georgia pro;
+            margin: 0;
+            padding: 0;
+            background-color:#FFCC00
+        }
+
+        #header {
+            background-color:#2c3e50;
+            color: pale yellow;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #header a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+        }
+
+        #home,
+        #about,
+        #projects,
+        #achievements,
+        #contact {
+            background-color:#fceabb;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+        }
+
+        #footer {
+            background-color:#FFCC00 ;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            color:black;
+            text-align: center;
+        }
+
+        .project-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .project-list li {
+            margin-bottom: 15px;
+        }
+
+        .project-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        .project-list li hr {
+            border-color: #ccc;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <a href="#home">Home</a> |
+        <a href="#about">About</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#achievements">Achievements</a> |
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div id="home">
+        <div class="section-title">HEY GUYS</div>
+        <div align="center">
+            <h2 style="color:black;">VISHVAKSENA'S PROTFOLIO</h2>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="section-title">About Me</div>
+        <div align="center">
+            <img src="vishu.jpg" alt="Profile Picture" style="width: 200px; border-radius: 50%;">
+            <p>
+                Thanks for your interest</p>
+              
+
+<p>"Welcome to my portfolio! I'm VISHVAKSENA, a Computer Science Engineer with a passion for innovation and technology. With a solid foundation in software development, problem-solving, and a love for turning complex ideas into elegant solutions, I'm on a mission to create, code, and contribute. Explore my projects to see how I've harnessed the power of code to build a digital world 
+that's efficient, secure, and impactful."
+            </p>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="section-title">Projects</div>
+        <ul class="project-list">
+            <li>
+                <strong>STUDENT MANAGING SYSTEM </strong>
+                <p>
+                    I Designed and developed a  STUDENT MANAGING SYSTEM is a comprehensive software solution for educational institutions. It simplifies student record management, attendance tracking, grading, and course scheduling.                </p>
+            </li>
+            <li>
+                <hr>
+                <strong>CALORIES BURNT PREDICTOR</strong>
+                <p>
+
+                Calories Burnt Predictor is a machine learning project that accurately estimates calories burned during physical activities, providing users with personalized fitness insights based on activity type, duration, and user data."
+                </p>
+            </li>
+            <li>
+                <hr>
+                <strong>TELEGRAM CHAT BOT (Chat-GPT)</strong>
+                <p>I created a chat board on the Telegram platform using botfather and integrated with chat gpt using integrating APIs providing natural language interaction and responses similar to Chatgpt...</p>
+            </li>
+        </ul>
+    </div>
+
+    <div id="achievements">
+        <div class="section-title">Achievements</div>
+        <ul class="achievement-list">
+            <li>
+                <strong>AICTE – Cohort 6 Virtual Internship</strong>
+                <ul>
+                    <li>I had the privilege of participating in the AICTE Cohort 6 Virtual Internship program, focusing on the INTELLIGENCE AUTOMATION</li>
+                </ul>
+            </li>
+            <li>
+                <hr>
+                <strong>Hacker Rank certificate Python and Problem solving using Programming</strong>
+                <ul>
+                    <li>I have successfully completed the HackerRank certification in Python and Problem Solving using Programming, an achievement that reflects my proficiency in Python programming and problem-solving skills...</li>
+                </ul>
+            </li>
+            <li>
+                <hr>
+                <strong>Cetification on AIML Research</strong>
+                <ul>
+                    <li>I have achieved certification in the AIML (Artificial Intelligence and Machine Learning) Research Program, conducted by SR University...</li>
+                </ul>
+            </li>
+            <li>
+                <hr>
+                <strong>Ethical Hacking Certification by Great Learning</strong>
+                <ul>
+                    <li>I have successfully completed the Ethical Hacking Course Certification through Great Learning, a renowned platform for professional development and education...</li>
+                </ul>
+            </li> 
+        </ul>
+    </div>
+
+    <div id="contact">
+        <div class="section-title">Contact</div>
+        <div class="contact-form" align="center">
+            <input type="text" placeholder="Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="tel" placeholder="Number"><br>
+            <textarea placeholder="Message" rows="5" cols="40"></textarea><br>
+            <button type="Submit">Submit</button>
+        </div>
+    </div>
+
+    <div id="footer">
+        <a href="https://www.linkedin.com/in/vishvaksena-mudraboina-658232282/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: white;">LinkedIn</a> |
+        <a href="https://www.instagram.com/its_me_vishu_41/" style="color: white;">Instagram</a>
+        <p>&copy; 2023 VISHVAKSENA MUDRABOINA. All rights reserved</p>
+    </div>
+</body>
+</html>
